@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  width: 100%;
+  max-width: 516px;
+  min-width: 290px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.home__imagen-pato {
+  width: 90%;
+  margin-top: 40px;
+}
+.home__titulo {
+  width: 70%;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.perfil {
+  width: 60%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+.perfil__imagen-perfil {
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 30px;
+  border: 1px solid #000000;
+}
+.perfil__parrafo-inicial {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.proyectos {
+  width: 100%;
+  max-width: 516px;
+  min-width: 290px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.proyectos__titulo {
+  width: 70%;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Manrope", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contenedor-proyectos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.link-img {
+  display: block;
+  width: 295px;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.link-img__imagen {
+  width: 295px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.quien-soy {
+  width: 100%;
+  max-width: 516px;
+  min-width: 290px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.quien-soy__titulo {
+  width: 70%;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Manrope", sans-serif;
+  margin-top: 20px;
+}
+.quien-soy__parrafo {
+  width: 80%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contacto {
+  width: 100%;
+  max-width: 516px;
+  min-width: 290px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacto__imagen {
+  width: 90%;
+  margin-top: 30px;
+}
+.contacto__titulo {
+  width: 70%;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Manrope", sans-serif;
+  margin-top: 30px;
+}
+.contacto__formulario {
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+}
+.contacto__formulario p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.contacto__formulario input {
+  width: 90%;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 1px solid #333333;
+  padding: 10px;
+}
+.contacto__formulario textarea {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 1px solid #333333;
+  padding: 10px;
+  margin-top: 5px;
+}
+.contacto__formulario .boton-formulario {
+  height: 40px;
+  margin: 30px auto 30px auto;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  border: none;
+  cursor: pointer;
+  background-color: #EE5021;
+}
+.contacto__redes-sociales {
+  width: 100%;
+  max-width: 516px;
+  min-width: 290px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.contacto__redes-sociales .github,
+.contacto__redes-sociales .linkedin {
+  width: 50px;
+}
+
+.footer {
+  width: 80%;
+  max-width: 516px;
+  min-width: 290px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer__hecho-por {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.footer__migithub {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #EE5021;
+}
+.footer__fecha {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,54 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Nicolas Garcia Frontend
+        link(rel="stylesheet", href="/css/estilos.css")
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+    body 
+        main.contenedor
+            section.home 
+                img.home__imagen-pato(src="/assets/imagenes/pato1.png", alt="Pato con una laptop y un cafecito")
+                h1.home__titulo Hola!, Soy Nicolas Garcia.
+                article.perfil 
+                    img.perfil__imagen-perfil(src="/assets/imagenes/nico.png", alt="Imagen de perfil del desarrollador web")
+                    p.perfil__parrafo-inicial Desarrollador Front-end JavaScript.
+            section.proyectos 
+                h2.proyectos__titulo Proyectos
+                article.contenedor-proyectos
+                    a(href='https://regal-eclair-dcdafa.netlify.app/#plans' target="_blank" class='link-img') 
+                        img.link-img__imagen(src="/assets/imagenes/proyecto.png", alt="")
+                    
+            section.quien-soy  
+                h2.quien-soy__titulo Quien soy
+                P.quien-soy__parrafo Soy Nicolas Garcia Piñeros, desarrollador Front-end, soy nuevo en el desrrollo web. Con las habilidades que dia a dia voy adquiriendo desarrollo productos digitales con sistemas de diseño amigables para el usuario, interactivos y funcionales.
+            section.contacto 
+                img.contacto__imagen(src="/assets/imagenes/pato2.png", alt="Pato con un celular en la alita")
+                h2.contacto__titulo Contacto  
+                form.contacto__formulario(action="")
+                    p Nombre
+                    input(type="text" name="nombre" placeholder="Nombre")
+                    p Asunto
+                    input(type="text" name="asunto" placeholder="Asunto")
+                    p Correo
+                    input(type="email" name="correo" placeholder="@Correo")
+                    p ¿Como puedo ayudarte?
+                    textarea(name="textarea", cols="30", rows="10") 
+                    input(type="submit" name="Enviar" value="Enviar" class='boton-formulario')
+                article.contacto__redes-sociales 
+                    .github
+                        a(href="https://github.com/nicolasegpla" target="_blank" ) 
+                            img(src="/assets/iconos/github.png", alt="", class="github")
+                    .linkedin
+                        a(href="https://www.linkedin.com/in/frontend-nicolas-garcia/" target="_blank" ) 
+                            img(src="/assets/iconos/linkedin.png", alt="", class="linkedin")
+                footer.footer 
+                    p.footer__hecho-por Desarrollado por: Nicolas Edixon Garcia Piñeros 
+                    a.footer__migithub(href="") Quieres ver mi codigo
+                    p.footer__fecha 2022. 
+
+
+                          
+                
