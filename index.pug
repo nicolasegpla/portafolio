@@ -27,16 +27,18 @@ html(lang="es")
             section.contacto 
                 img.contacto__imagen(src="/assets/imagenes/pato2.png", alt="Pato con un celular en la alita")
                 h2.contacto__titulo Contacto  
-                form.contacto__formulario(action="")
+                form.contacto__formulario(action="https://formsubmit.co/1e4d89dd784a81730e2fce4bd233ad88" method="POST")
                     p Nombre
-                    input(type="text" name="nombre" placeholder="Nombre")
+                    input(type="text" name="name" placeholder="Nombre")
                     p Asunto
-                    input(type="text" name="asunto" placeholder="Asunto")
+                    input(type="text" name="subject" placeholder="Asunto")
                     p Correo
-                    input(type="email" name="correo" placeholder="@Correo")
+                    input(type="email" name="email" placeholder="@Correo")
                     p ¿Como puedo ayudarte?
                     textarea(name="textarea", cols="30", rows="10") 
                     input(type="submit" name="Enviar" value="Enviar" class='boton-formulario')
+                    input(type="hidden" name="_next" value="http://172.22.252.41:5500/")
+                    input(type="hidden" name="_captcha" value="false")
                 article.contacto__redes-sociales 
                     .github
                         a(href="https://github.com/nicolasegpla" target="_blank" ) 
@@ -46,7 +48,7 @@ html(lang="es")
                             img(src="/assets/iconos/linkedin.png", alt="", class="linkedin")
                 footer.footer 
                     p.footer__hecho-por Desarrollado por: Nicolas Edixon Garcia Piñeros 
-                    a.footer__migithub(href="") Quieres ver mi codigo
+                    a.footer__migithub(href="https://github.com/nicolasegpla/portafolio" target='_blank') Quieres ver mi codigo
                     p.footer__fecha 2022. 
 
 
