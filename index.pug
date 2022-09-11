@@ -27,7 +27,7 @@ html(lang="es")
             section.contacto 
                 img.contacto__imagen(src="assets/imagenes/pato2.png", alt="Pato con un celular en la alita")
                 h2.contacto__titulo Contacto  
-                form.contacto__formulario(action="https://formsubmit.co/1e4d89dd784a81730e2fce4bd233ad88" method="POST")
+                form.contacto__formulario(action="https://formspree.io/f/xrgdedgo" method="POST")
                     p Nombre
                     input(type="text" name="name" placeholder="Nombre")
                     p Asunto
@@ -37,8 +37,9 @@ html(lang="es")
                     p ¿Como puedo ayudarte?
                     textarea(name="textarea", cols="30", rows="10") 
                     input(type="submit" name="Enviar" value="Enviar" class='boton-formulario')
-                    input(type="hidden" name="_next" value="https://nicolasegpla.github.io/nicolasegpla.io/")
-                    input(type="hidden" name="_captcha" value="false")
+
+                   
+
                 article.contacto__redes-sociales 
                     .github
                         a(href="https://github.com/nicolasegpla" target="_blank" ) 
