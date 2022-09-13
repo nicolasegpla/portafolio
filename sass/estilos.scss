@@ -9,10 +9,70 @@ $fuenteTextos: 'Quicksand', sans-serif;
 html {
     font-size: 62.5%;
 }
+
 .contenedor {
     display: flex;
     flex-direction: column;
 }
+.nav {
+    width: 100%;
+    height: 50px;
+    max-width: 516px;
+    min-width: 290px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*modo oscuro*/
+.contenedor-bmo {
+    background-color: #EE5021;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.contenedor-bmo__title {
+    font-family: $fuenteTextos;
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #000000;
+}
+.contenedor-bmo__boton {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: yellow;
+}
+.contenedor-bmo__boton-moon {
+    margin: 0 auto;
+    margin-top: 2.5px;
+}
+.contenedor-bmo__boton-sun {
+    margin: 0 auto;
+    margin-top: 2.5px;
+}
+.inactive {
+    display: none;
+}
+.light {
+    background-color: #14b8d4;
+}
+.fondoColor {
+    background-color: #333333;
+    color: aliceblue;
+}
+.navColor {
+    background-color:yellow ;
+}
+
+
 .home {
     width: 100%;
     max-width: 516px;
@@ -184,6 +244,9 @@ html {
 
         }
     }
+    .colorBoton {
+        background-color: yellow;
+    }
     &__redes-sociales {
         width: 100%;
         max-width: 516px;
@@ -231,6 +294,9 @@ html {
         font-size: 1.4rem;
         margin-bottom: 30px;
     }
+}
+.colorgit {
+    color: yellow;
 }
 
 

@@ -9,6 +9,14 @@ html(lang="es")
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
     body 
         main.contenedor
+            section.nav 
+                
+                article.contenedor-bmo
+                    h2.contenedor-bmo__title Front-end.
+                    button.contenedor-bmo__boton
+                        img.contenedor-bmo__boton-moon(src="assets/iconos/moon.svg", alt="")
+                        img.contenedor-bmo__boton-sun(src="assets/iconos/sun.svg", alt="" class='inactive')
+                        
             section.home 
                 img.home__imagen-pato(src="assets/imagenes/pato1.png", alt="Pato con una laptop y un cafecito")
                 h1.home__titulo Hola!, Soy Nicolas Garcia.
@@ -38,8 +46,6 @@ html(lang="es")
                     textarea(name="textarea", cols="30", rows="10") 
                     input(type="submit" name="Enviar" value="Enviar" class='boton-formulario')
 
-                   
-
                 article.contacto__redes-sociales 
                     .github
                         a(href="https://github.com/nicolasegpla" target="_blank" ) 
@@ -47,11 +53,12 @@ html(lang="es")
                     .linkedin
                         a(href="https://www.linkedin.com/in/frontend-nicolas-garcia/" target="_blank" ) 
                             img(src="assets/iconos/linkedin.png", alt="", class="linkedin")
-                footer.footer 
-                    p.footer__hecho-por Desarrollado por: Nicolas Edixon Garcia Piñeros 
-                    a.footer__migithub(href="https://github.com/nicolasegpla/portafolio" target='_blank') Quieres ver mi codigo
-                    p.footer__fecha 2022. 
-
+     
+    footer.footer 
+        p.footer__hecho-por Desarrollado por: Nicolas Edixon Garcia Piñeros 
+        a.footer__migithub(href="https://github.com/nicolasegpla/portafolio" target='_blank') Quieres ver mi codigo
+        p.footer__fecha 2022. 
+    script(src="main.js")
 
                           
                 
